@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mydockerdevopsapplication:
+    image: ${DOCKER_REGISTRY-}mydockerdevopsapplication
+    build:
+      context: .
+      dockerfile: MyDockerDevopsApplication/Dockerfile

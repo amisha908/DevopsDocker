@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FX8vR3vgPz+hLHHC6VOmrMLnXo+j+sk06LJAEB2Pgak=",
+  "Source": "MyDockerDevopsApplication",
+  "BasePath": "_content/MyDockerDevopsApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
