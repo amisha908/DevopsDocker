@@ -16,7 +16,7 @@ pipeline {
         git 'https://github.com/amisha908/DevopsDocker.git'  
       }
     }
-    }
+    
       stage('SonarQube Analysis') {
       steps {
         withSonarQubeEnv(installationName: 'sonar') {
@@ -25,5 +25,6 @@ pipeline {
             -Dsonar.projectName=DotnetApp"""
         }
       }
+     }
   }
 }
